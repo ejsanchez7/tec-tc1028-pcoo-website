@@ -1,0 +1,15 @@
+i.material-icons {
+    vertical-align: middle;
+}
+.activities-text {
+    color: #009600;
+}
+ol.normal-list,
+ul.normal-list {
+    li {
+        list-style-type: disc;
+    }
+}
+.align-top {
+    vertical-align: top;
+}

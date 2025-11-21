@@ -11,7 +11,7 @@
       <!--End of materialize.css-->
       <meta name="author" content="Benjamín Valdés">
       <title>TC1033 Pensamiento Computacional Orientado a Objetos - Calendario</title>
-      <link rel="stylesheet" type="text/css" href="cursos.css">
+      <link rel="stylesheet" type="text/css" href="css/cursos.css">
    </head>
    <body>
       <header>
@@ -32,520 +32,655 @@
          <table border="1" class="striped ">
             <thead>
                <tr>
-                  <th>Contenido</th>
-                  <th>Sesión <br>
-                     (Fecha)
-                  </th>
-                  <th>Actividad</th>
+                  <th>Semana</th>
+                  <th>1a sesión</th>
+                  <th>2a sesión</th>
                </tr>
             </thead>
             <tbody>
                <tr>
-                  <td>
-                     Programación estructurada <br> en lenguajes compilados
+                  <td class="center">
+                     <h5>1</h5>
+                     3 - 9 de noviembre
                   </td>
-                  <td>
-                     <p>1</p>
-                     (4 de noviembre)
-                  </td>
-                  <td>
-                     <ul>
-                       <li>
-                           <a href="./documentos/TemarioDePensamientoComputacionalOrientadoAObjetos.pdf" target="_blank">
-                           <i class="small material-icons">info_outline</i>¿Qué y cómo vamos a aprender en el curso? (temario)</a>
-                        </li>
-                        <li>
-                           <a href="https://drive.google.com/drive/folders/1zB_mo3mXVSoPjRCJSbP6M2rzLzQ1Alno?usp=share_link" target="_blank">
-                              <i class="small material-icons">info_outline</i>
-                              Carpeta con carátulas de calificación de cada estudiante (Calificaciones)
-                           </a>
-                        </li>
-                       <li>
-                           <i class="small material-icons">info_outline</i>
-                           <strong>Workspace de Slack (comunicación entre alumnos y con el profesor)</strong>
-                           <br>
-                           <a href="https://tc1033-pcoo.slack.com" target="_blank">
-                              https://tc1033-pcoo.slack.com
-                           </a>
-                           <br/>
-                           <strong>Invitación para entrar por primera vez (expira en 30 días)</strong>
-                           <br/>
-                           <a href="https://join.slack.com/t/tc1033-pcoo/shared_invite/zt-3hkp328gm-KgSEE3U7TmTXR3ezzoORcQ" target="_blank">
-                              https://join.slack.com/t/tc1033-pcoo/shared_invite/zt-3hkp328gm-KgSEE3U7TmTXR3ezzoORcQ
-                           </a>
-                       </li>
-                        <li>
-                           <i class="small material-icons">info_outline</i>
-                           <strong>Horario de asesorías</strong>
-                           <p>Por demanda, previo acuerdo y cita con el profesor, preferentemente de lunes a viernes después de las 17:00 horas.</p>
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> 
-                           <a href="./documentos/CompilacionC.pdf" target="_blank">
-                              Explicación de Proceso de Compilación.
-                           </a>
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> 
-                           <a href="programas_python_c.html" target="_blank">De python a C++</a>.
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> 
-                           <a href="./documentos/estandar_codificacion.pdf" target="_blank">
-                              Estándar de codificación.
-                           </a>
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                  </td>
-                  <td>
-                     Hacer antes de la siguiente sesión
-                  </td>
-                  <td>
-                     <ul>
-                        <li>
-                           <i class="small material-icons">assignment</i>Selecciona al menos uno de los siguiente recursos para resolver las dudas que tengas sobre C++:
-                           <ol>
-                              <li>lista de videos <a href="videos_c.html" target="_blank">videos </a>, sobre C++ en español.</li>
-                              <!-- <li>capítulos 1,2,3 y 4 de <a href="https://runestone.academy/runestone/static/cpp4python/index.html" target="_blank">libro interactivo</a>
-                                 con códigos de ejemplo de python a C++. (No apuntadores/pointers)
-                              </li> -->
-                              <li> códigos de apoyo <a href="programas_python_c.html" target="_blank">de python a C++</a></li>
-                           </ol>
-                        </li>
-                        <li>
-                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                              <i class="small material-icons">computer</i>
-                              Haz un programa en C++ que tenga las siguientes funciones y mándalas a llamar desde el main:
-                              <ol>
-                                 <li>is_prime que recibe un entero y devuelve veradero si el número es primo</li>
-                                 <li>promedio que recibe un arreglo de enteros y devuelva el promedio como flotante</li>
-                              </ol>
-                              <i class="small material-icons">assignment</i>
-                              Toma notas sobre el tema para usar en los examenes. Las notas deben de estar escritas a mano.<b>
-                              No impreso, no copias, no digital.</b>
-                           </span>
-                            <li>
-                           <i class="small material-icons">assignment</i>Tutorial de configuración para IDE y repositorio:
-                           <ol>
-                              <li><a href="https://www.youtube.com/watch?v=Hu1gzAqUZu0&feature=youtu.be" target="_blank"> github </a> crear cuenta y subir archivo CPP </li>
-                              <li><a href="https://www.youtube.com/watch?v=RtQZ9bSvr_M&feature=youtu.be" target="_blank"> replit </a> en caso de no tener IDE (opcional) </li>
-                           </ol>
-                        </li>
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Datos estructurados <br> (arreglos, strings, matrices)
-                  </td>
-                  <td>
-                     <p>2</p>
-                     (7 de noviembre)
-                  </td>
-                  <td>
-                     <ul>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i>Resolver dudas del autoestudio
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Strings y matrices en C++
-                        </li>
-                        <li>
-                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                           <i class="small material-icons">assessment</i> Examen: C++ básico programación estructurada
-                           </span>
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Solución del examen.
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                  </td>
-                  <td>
-                     Hacer antes de la siguiente sesión
-                  </td>
-                  <td>
-                     <ul>
-                        <li><i class="small material-icons">assignment</i>Ve los 2 de videos:
-                           <a href="https://vimeo.com/200055756" target="_blank">Clases y Objetos </a> y
-                           <a href="https://vimeo.com/200083670" target="_blank">Más sobre clases y objetos</a>
-                        </li>
-                        <li>
-                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                           <i class="small material-icons">computer</i>Crea la clase bebida con 2 atributos en C++ e instancía dos objetos de la clase desde el main.
-                           <br>
-                           <i class="small material-icons">assignment</i>Toma notas sobre el tema para ocupar en el examen. <b> No impreso, no copias, no digital.</b>
-                           </span>
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Solución de problemas mediante <br> programación orientada a objetos
-                  </td>
-                  <td>
-                     <p>3</p>
-                     (11 de noviembre)
-                  </td>
-                  <td>
-                     <ul>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Resolver dudas sobre C++:
-                           <ol>
-                              <li>Objetos</li>
-                              <li>Clases</li>
-                              <li>Atributos</li>
-                              <li>Métodos</li>
-                              <li>Interacción entre ellos</li>
-                           </ol>
-                        </li>
-                        <li>
-                           <i class="small material-icons">computer</i>Programar la clase Arbol con:
-                           <ol>
-                              <li>Atributos: especie, edad, tam</li>
-                              <li>Métodos: getters(), setters(), crece(tiempo)</li>
-                              <li>Constructor</li>
-                              <li>
-                                 usa los siguientes archivos como apoyo
-                                 <a href="programas/ejemplo objeto arbol/arbol.h" target="_blank"> arbol.h </a>
-                                 <a href="programas/ejemplo objeto arbol/main.cpp" target="_blank"> arbol.cpp </a>
-                              </li>
-                           </ol>
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Resolver dudas sobre como proceso de modelado:
-                           <ol>
-                              <li>Abstracción</li>
-                              <li>Encapsulamiento</li>
-                           </ol>
-                        </li>
-                        <li>
-                           <i class="small material-icons">computer</i>Abstraer un objeto real en el salón y separarlo en:
-                           <ol>
-                              <li>¿Qué tiene? Atributos ...  ¿Qué tipo de dato guarda?</li>
-                              <li>¿Qué hace? Métodos ...  ¿Qué necesita recibir? ¿Qué devuelve?</li>
-                           </ol>
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                  </td>
-                  <td>
-                     Hacer antes de la siguiente sesión
-                  </td>
-                  <td>
-                     <ul>
-                        <span style="color: rgb(0, 150, 0); font-weight: bold;">
+                  <td class="align-top">
+                     <div>
+                        <h5>Temas:</h5>
+                        <ul>
                            <li>
-                              <i class="small material-icons">computer</i>
-                              Avance de proyecto (16 de noviembre):<br/>
-                              <a href="creacion_de_objetos.html" target="_blank">
-                              Creación de Objetos
+                              <i class="tiny material-icons">check_circle</i> 
+                              Introducción al curso
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">check_circle</i> 
+                              Programación estructurada en lenguajes compilados
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Durante la sesión:</h5>
+                        <ul>
+                        <li>
+                              <a href="./documentos/TemarioDePensamientoComputacionalOrientadoAObjetos.pdf" target="_blank">
+                              <i class="tiny material-icons">info_outline</i>¿Qué y cómo vamos a aprender en el curso? (temario)</a>
+                           </li>
+                           <li>
+                              <a href="https://drive.google.com/drive/folders/1zB_mo3mXVSoPjRCJSbP6M2rzLzQ1Alno?usp=share_link" target="_blank">
+                                 <i class="tiny material-icons">info_outline</i>
+                                 Carpeta con carátulas de calificación de cada estudiante (Calificaciones)
                               </a>
                            </li>
-                        </span>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Construcción de software <br> orientado a objetos
-                  </td>
-                  <td>
-                     <p>4</p>
-                     (14 de noviembre)
-                  </td>
-                  <td>
-                     <ul>
                         <li>
-                           <i class="small material-icons">speaker_notes</i>Resolver dudas sobre última sesión y proyectos
+                              <i class="tiny material-icons">info_outline</i>
+                              <strong>Workspace de Slack (comunicación entre alumnos y con el profesor)</strong>
+                              <br>
+                              <a href="https://tc1033-pcoo.slack.com" target="_blank">
+                                 https://tc1033-pcoo.slack.com
+                              </a>
+                              <br/>
+                              <strong>Invitación para entrar por primera vez (expira en 30 días)</strong>
+                              <br/>
+                              <a href="https://join.slack.com/t/tc1033-pcoo/shared_invite/zt-3hkp328gm-KgSEE3U7TmTXR3ezzoORcQ" target="_blank">
+                                 https://join.slack.com/t/tc1033-pcoo/shared_invite/zt-3hkp328gm-KgSEE3U7TmTXR3ezzoORcQ
+                              </a>
                         </li>
-                        <li>
-                           <i class="small material-icons">computer</i>Ejercicio completo de abstracción a implementación
-                        </li>
-                        <li>
-                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                              <i class="small material-icons">assessment</i> Examen: Objetos básicos
-                              <ol>
-                                 <li><i class="small material-icons">thumb_up</i>Objeto</li>
-                                 <li><i class="small material-icons">thumb_up</i>Atributo y Metodo</li>
-                                 <li><i class="small material-icons">thumb_up</i>Clase</li>
-                                 <li><i class="small material-icons">thumb_up</i>Relacion entre clase, objeto, método y atributo</li>
-                                 <li><i class="small material-icons">thumb_up</i>Abstracción</li>
-                                 <li><i class="small material-icons">thumb_up</i>Encapsulamiento</li>
-                                 <li><i class="small material-icons">thumb_up</i>soluciones requieren objetos básicos</li>
-                              </ol>
-                           </span>
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Solución del examen.
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                  </td>
-                  <td>
-                     Hacer antes de la siguiente sesión
-                  </td>
-                  <td>
-                     <ul>
-                        <li><i class="small material-icons">assignment</i>Revisa a detalle <a href="uml_diagramas de clase.html">UML Diagramas de Clase </a> y toma notas </li>
-                        <li><span style="color: rgb(0, 150, 0); font-weight: bold;">
-                           <i class="small material-icons">assignment</i>Haz un Diagrama de clases en UML donde representes tipos de bebidas para un restaurante o cafetería, <br>
-                           usa atributos como ingredientes, tamaño etc...<br>
-                           <i class="small material-icons">assignment</i>Haz notas sobre el tema.<b> No impreso, no copias, no digital.</b>
-                           </span>
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Diseño formal de programas <br> orientados a objetos
-                  </td>
-                  <td>
-                     <p>5</p>
-                     (18 de noviembre)
-                  </td>
-                  <td>
-                     <ul>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Resolver dudas sobre C++:
-                           <ol>
-                              <li>UML</li>
-                              <li>herencia</li>
-                              <li>composición</li>
-                              <li>agregación</li>
-                              <li>Diagramas de Clase</li>
-                              <li>Paso de Mensajes</li>
-                           </ol>
-                        </li>
-                        <li>
-                           <i class="small material-icons">assignment</i>Genera un diagrama de clase a partir de clase árbol.
-                        </li>
-                        <li>
-                           <i class="small material-icons">assignment</i>Genera un UML donde describamos la clase árbol con respecto a otra plantas.
-                        </li>
-                        <li>
-                           <i class="small material-icons">assignment</i>Ejemplo Rick and Morty.
-                           <a href="programas/UML Rick and Morty/UML rick and morty.png" target="_blank"> UML.png </a> :
-                            <a href="programas/UML Rick and Morty/main.cpp " target="_blank"> main.cpp </a>,
-                            <a href="programas/UML Rick and Morty/rick.h " target="_blank"> rick.h </a>,
-                            <a href="programas/UML Rick and Morty/morty.h" target="_blank"> morty.h </a>.
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                  </td>
-                  <td>
-                     Hacer antes de la siguiente sesión
-                  </td>
-                  <td>
-                     <ul>
-                        <span style="color: rgb(0, 150, 0); font-weight: bold;">
                            <li>
-                              <i class="small material-icons">computer</i>
-                              Avance de proyecto (23 de noviembre):<br/>
-                              <a href="creacion_de_clases.html" target="_blank">
-                                 Creación de Diagrama de clases
+                              <i class="tiny material-icons">info_outline</i>
+                              <strong>Horario de asesorías</strong>
+                              <p>Por demanda, previo acuerdo y cita con el profesor, preferentemente de lunes a viernes después de las 17:00 horas.</p>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              <a href="./documentos/CompilacionC.pdf" target="_blank">
+                                 Explicación de Proceso de Compilación.
                               </a>
                            </li>
-                        </span>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Construcción de software <br> orientado a objetos
-                  </td>
-                  <td>
-                     <p>6</p>
-                     (21 de noviembre)
-                  </td>
-                  <td>
-                     <ul>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i>Resolver dudas sobre última sesión y proyectos
-                        </li>
-                        <li>
-                           <i class="small material-icons">computer</i>Terminar modelado de clase previa.
-                        </li>
-                        <li>
-                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                              <i class="small material-icons">assessment</i> Examen: UML
-                              <ol>
-                                 <li><i class="small material-icons">thumb_up</i>UML</li>
-                                 <li><i class="small material-icons">thumb_up</i>Diagramas de clases</li>
-                              </ol>
-                           </span>
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Solución del examen.
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                  </td>
-                  <td>
-                     Hacer antes de la siguiente sesión
-                  </td>
-                  <td>
-                     <ul>
-                        <li><i class="small material-icons">assignment</i>
-                           <a href ="implementacion herencia composicion agregacion.html">
-                           Recursos sobre implementación de herencia, composición y agregación</a>
-                        </li>
-                        <li><span style="color: rgb(0, 150, 0); font-weight: bold;">
-                           <i class="small material-icons">assignment</i>Modifica tu UML anterior de bebidas para integrar relaciones de Composición y Agregación.<br>
-                           <i class="small material-icons">assignment</i>Haz notas sobre el tema. No impreso, no copias, no digital.
-                           </span>
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Herencia y composición
-                  </td>
-                  <td>
-                     <p>7</p>
-                     (25 de noviembre)
-                  </td>
-                  <td>
-                     <ul>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Resolver dudas sobre C++:
-                           <ol>
-                              <li>Herencia</li>
-                              <li>Composición</li>
-                              <li>Agregación</li>
-                              <li> Ejemplo:
-                                <a href ="programas/ejemplo autos/auto.h"> auto.h </a>
-                                <a href ="programas/ejemplo autos/llanta.h"> llanta.h </a>
-                                <a href ="programas/ejemplo autos/autos_main.cpp"> autos_main.cpp </a>
-                              </li>
-                           </ol>
-                        </li>
-                        <li>
-                           <i class="small material-icons">computer</i>Ejercicio generar una clase Avión e instanciar varios objetos aviones (herencia).
-                        </li>
-                        <li>
-                           <i class="small material-icons">computer</i>Ejercicio generar una clase Flota que guarda un conjunto de aviones (composición).
-                        </li>
-                        <li>
-                           <i class="small material-icons">computer</i>Ejercicio generar una clase Aeropuerto que consulta a una flota  para determinar los impuesto que debe pagar (agregación).
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>Hacer antes de la siguiente sesión</td>
-                  <td>
-                     <ul>
-                        <span style="color: rgb(0, 150, 0); font-weight: bold;">
                            <li>
-                              <i class="small material-icons">computer</i>
-                              Avance de proyecto (30 de noviembre):<br/>
-                              <a href="integracion_de_herencia.html" target="_blank">
-                              Integración de Herencia, composición y agregación
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              <a href="programas_python_c.html" target="_blank">De python a C++</a>.
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              <a href="./documentos/estandar_codificacion.pdf" target="_blank">
+                                 Estándar de codificación.
                               </a>
                            </li>
-                        </span>
-                     </ul>
+                        </ul>
+                     </div>
                   </td>
-               </tr>
-               <tr>
-                  <td>
-                     Ejericio integrador
-                  </td>
-                  <td>
-                     <p>8</p>
-                     (28 de noviembre)
-                  </td>
-                  <td>
-                     <ul>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i>Resolver dudas sobre última sesión y proyectos
-                        </li>
-                        <li>
-                           <i class="small material-icons">computer</i> Ejercicio problema -> Abstracción -> Diagrama de Clases -> Implementación
-                        </li>
-                        <li>
-                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                              <i class="small material-icons">assessment</i> Examen: Herencia y Composición
-                              <ol>
-                                 <li><i class="small material-icons">thumb_up</i>Herencia</li>
-                                 <li><i class="small material-icons">thumb_up</i>Composición</li>
-                                 <li><i class="small material-icons">thumb_up</i>Problemas que implican herencia</li>
-                                 <li><i class="small material-icons">thumb_up</i>Problemas que implican composición</li>
-                              </ol>
-                           </span>
-                        </li>
-                        <li>
-                           <i class="small material-icons">speaker_notes</i> Solución del examen.
-                        </li>
-                     </ul>
-                  </td>
-               </tr>
-               <tr>
-                  <td>Repaso</td>
-                  <td>
-                     <p>9</p>
-                     (2 de diciembre)
-                  </td>
-                  <td>Repaso</td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>Hacer antes de la siguiente sesión</td>
-                  <td>
-                     <ul>
-                        <span style="color: rgb(0, 150, 0); font-weight: bold;">
+                  <td class="align-top">
+                     <div>
+                        <h5>Temas:</h5>
+                        <ul>
                            <li>
-                              <i class="small material-icons">computer</i>
-                              <a href="proyecto_final.html" target="_blank">
-                              Proyecto Entrega final.
+                              <i class="tiny material-icons">check_circle</i> 
+                              Datos estructurados (arreglos, strings, matrices)
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Previo a la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">assignment</i>Selecciona al menos uno de los siguiente recursos para resolver las dudas que tengas sobre C++:
+                              <ol>
+                                 <li>lista de <a href="videos_c.html" target="_blank">videos</a>, sobre C++ en español.</li>
+                                 <li> códigos de apoyo <a href="programas_python_c.html" target="_blank">de python a C++</a></li>
+                              </ol>
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">computer</i> 
+                              <strong>
+                                 Haz un programa en C++ que tenga las siguientes funciones y mándalas  
+                                 llamar desde el main:
+                              </strong>
+                              <ol class="normal-list">
+                                 <li>
+                                    is_prime que recibe un entero y devuelve veradero si el número es primo
+                                 </li>
+                                 <li>
+                                    promedio que recibe un arreglo de enteros y devuelva el promedio como 
+                                    flotante
+                                 </li>
+                              </ol>
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assignment</i> 
+                              <strong>
+                                 Toma notas sobre el tema para usar en los examenes. Las notas deben de 
+                                 estar escritas a mano, no impreso, no copias, no digital.
+                              </strong>
+                           <li>
+                           <li>
+                              <i class="tiny material-icons">assignment</i> 
+                              Tutorial de configuración para IDE y repositorio:
+                              <ol class="normal-list">
+                                 <li>
+                                    <a href="https://www.youtube.com/watch?v=Hu1gzAqUZu0&feature=youtu.be" target="_blank">
+                                       github
+                                    </a> 
+                                    crear cuenta y subir archivo CPP
+                                 </li>
+                                 <li>
+                                    <a href="https://www.youtube.com/watch?v=RtQZ9bSvr_M&feature=youtu.be" target="_blank">
+                                       replit
+                                    </a> 
+                                    en caso de no tener IDE (opcional)
+                                 </li>
+                              </ol>
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Durante la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              Resolver dudas del autoestudio
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              Strings y matrices en C++
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assessment</i> 
+                              <strong>Examen: C++ básico programación estructurada</strong>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> Solución del examen.
+                           </li>
+                        </ul>
+                     </div>
+                  </td>
+               </tr>
+
+               <tr>
+                  <td class="center">
+                     <h5>2</h5>
+                     10 - 16 de noviembre
+                  </td>
+                  <td class="align-top">
+                     <div>
+                        <h5>Temas:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">check_circle</i> 
+                              Solución de problemas mediante programación orientada a 
+                              objetos
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Previo a la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">assignment</i> 
+                              Ve los 2 de videos: 
+                              <a href="https://vimeo.com/200055756" target="_blank">Clases y Objetos </a> y 
+                              <a href="https://vimeo.com/200083670" target="_blank">
+                                 Más sobre clases y objetos
                               </a>
                            </li>
-                        </span>
-                     </ul>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">computer</i> 
+                              <strong>
+                                 Crea la clase bebida con 2 atributos en C++ e instancía dos objetos de la 
+                                 clase desde el main.
+                              </strong>
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assignment</i> 
+                              <strong>
+                                 Toma notas sobre el tema para ocupar en el examen. No impreso, no copias, 
+                                 no digital.
+                              </strong>
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Durante la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> Resolver dudas sobre C++:
+                              <ol class="normal-list">
+                                 <li>Objetos</li>
+                                 <li>Clases</li>
+                                 <li>Atributos</li>
+                                 <li>Métodos</li>
+                                 <li>Interacción entre ellos</li>
+                              </ol>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">computer</i> Programar la clase Arbol con:
+                              <ol class="normal-list">
+                                 <li>Atributos: especie, edad, tam</li>
+                                 <li>Métodos: getters(), setters(), crece(tiempo)</li>
+                                 <li>Constructor</li>
+                                 <li>
+                                    usa los siguientes archivos como apoyo
+                                    <a href="programas/ejemplo objeto arbol/arbol.h" target="_blank"> arbol.h </a>
+                                    <a href="programas/ejemplo objeto arbol/main.cpp" target="_blank"> arbol.cpp </a>
+                                 </li>
+                              </ol>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> Resolver dudas sobre como proceso de modelado:
+                              <ol class="normal-list">
+                                 <li>Abstracción</li>
+                                 <li>Encapsulamiento</li>
+                              </ol>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">computer</i> 
+                              Abstraer un objeto real en el salón y separarlo en:
+                              <ol class="normal-list">
+                                 <li>¿Qué tiene? Atributos ...  ¿Qué tipo de dato guarda?</li>
+                                 <li>¿Qué hace? Métodos ...  ¿Qué necesita recibir? ¿Qué devuelve?</li>
+                              </ol>
+                           </li>
+                        </ul>
+                     </div>
+                  </td>
+                  <td class="align-top">
+                     <div>
+                        <h5>Temas:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">check_circle</i> 
+                              Construcción de software orientado a objetos
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Previo a la sesión:</h5>
+                        <ul>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">computer</i> 
+                              <strong>
+                                 Avance de proyecto (16 de noviembre): 
+                                 <a href="creacion_de_objetos.html" target="_blank">
+                                    Creación de Objetos
+                                 </a>
+                              </strong>
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Durante la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              Resolver dudas sobre última sesión y proyectos
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">computer</i> 
+                              Ejercicio completo de abstracción a implementación
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assessment</i> 
+                              <strong>Examen: Objetos básicos</strong>
+                              <ol>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Objeto</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Atributo y Metodo</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Clase</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Relacion entre clase, objeto, método y atributo</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Abstracción</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Encapsulamiento</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>soluciones requieren objetos básicos</strong>
+                                 </li>
+                              </ol>
+                              </span>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> Solución del examen.
+                           </li>
+                        </ul>
+                     </div>
+                  </td>     
+               </tr>
+               
+               <tr>
+                  <td class="center">
+                     <h5>3</h5>
+                     17 - 23 de noviembre
+                  </td>
+                  <td class="align-top">
+                     <div>
+                        <h5>Temas:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">check_circle</i> 
+                              Diseño formal de programas orientados a objetos
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Previo a la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">assignment</i> 
+                              Revisa a detalle 
+                              <a href="uml_diagramas de clase.html">
+                                 UML Diagramas de Clase
+                              </a> 
+                              y toma notas
+                           </li>
+                           <li class="activities-text"> 
+                              <i class="tiny material-icons">assignment</i>
+                              <strong>
+                                 Haz un Diagrama de clases en UML donde representes tipos de bebidas 
+                                 para un restaurante o cafetería, usa atributos como ingredientes, 
+                                 tamaño etc...
+                              </strong>
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assignment</i> 
+                              <strong>
+                                 Haz notas sobre el tema. No impreso, no copias, no digital.
+                              </strong>
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Durante la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              Resolver dudas sobre C++:
+                              <ol class="normal-list">
+                                 <li>UML</li>
+                                 <li>herencia</li>
+                                 <li>composición</li>
+                                 <li>agregación</li>
+                                 <li>Diagramas de Clase</li>
+                                 <li>Paso de Mensajes</li>
+                              </ol>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">assignment</i> 
+                              Genera un diagrama de clase a partir de clase árbol.
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">assignment</i> 
+                              Genera un UML donde describamos la clase árbol con respecto 
+                              a otra plantas.
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">assignment</i> 
+                              Ejemplo Rick and Morty.
+                              <ol class="normal-list">
+                                 <li>
+                                    <a href="programas/UML Rick and Morty/UML rick and morty.png" target="_blank">UML.png</a> :
+                                 </li>
+                                 <li>
+                                    <a href="programas/UML Rick and Morty/main.cpp " target="_blank">main.cpp</a>
+                                 </li>
+                                 <li>
+                                    <a href="programas/UML Rick and Morty/rick.h " target="_blank">rick.h</a>
+                                 </li>
+                                 <li>
+                                    <a href="programas/UML Rick and Morty/morty.h" target="_blank">morty.h</a>
+                                 </li>
+                              </ol>
+                           </li>
+                        </ul>
+                     </div>
+                  </td>
+                  <td class="align-top">
+                     <div>
+                        <h5>Temas:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">check_circle</i> 
+                              Construcción de software orientado a objetos
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Previo a la sesión:</h5>
+                        <ul>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">computer</i> 
+                              <strong>
+                                 Avance de proyecto (23 de noviembre): 
+                                 <a href="creacion_de_clases.html" target="_blank">
+                                    Creación de Diagrama de clases
+                                 </a>
+                              </strong>
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Durante la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              Resolver dudas sobre última sesión y proyectos
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">computer</i> 
+                              Terminar modelado de clase previa.
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assessment</i> 
+                              <strong>Examen: UML</strong>
+                              <ol>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>UML</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Diagramas de clases</strong>
+                                 </li>
+                              </ol>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> Solución del examen.
+                           </li>
+                        </ul>
+                     </div>
+                  </td>
+               </tr>     
+               
+               <tr>
+                  <td class="center">
+                     <h5>4</h5>
+                     24 - 30 de noviembre
+                  </td>
+                  <td class="align-top">
+                     <div>
+                        <h5>Temas:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">check_circle</i> 
+                              Herencia y composición
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Pevio a la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">assignment</i> 
+                              <a href ="implementacion herencia composicion agregacion.html">
+                                 Recursos sobre implementación de herencia, composición y 
+                                 agregación
+                              </a>
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assignment</i> 
+                              <strong>
+                                 Modifica tu UML anterior de bebidas para integrar relaciones de 
+                                 Composición y Agregación.
+                              </strong>
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assignment</i> 
+                              <strong>
+                                 Haz notas sobre el tema. No impreso, no copias, no digital.
+                              </strong>
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Durante la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              Resolver dudas sobre C++:
+                              <ol class="normal-list">
+                                 <li>Herencia</li>
+                                 <li>Composición</li>
+                                 <li>Agregación</li>
+                                 <li>
+                                    Ejemplos: 
+                                    <a href ="programas/ejemplo autos/auto.h">auto.h</a>, 
+                                    <a href ="programas/ejemplo autos/llanta.h">llanta.h</a>, 
+                                    <a href ="programas/ejemplo autos/autos_main.cpp">autos_main.cpp</a>
+                                 </li>
+                              </ol>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">computer</i> 
+                              Ejercicio generar una clase Avión e instanciar varios objetos aviones 
+                              (herencia).
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">computer</i> 
+                              Ejercicio generar una clase Flota que guarda un conjunto de aviones 
+                              (composición).
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">computer</i> 
+                              Ejercicio generar una clase Aeropuerto que consulta a una flota  
+                              para determinar los impuesto que debe pagar (agregación).
+                           </li>
+                        </ul>
+                     </div>
+                  </td>
+                  <td class="align-top">
+                     <div>
+                        <h5>Temas:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">check_circle</i> 
+                              Ejericio integrador
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Pevio a la sesión:</h5>
+                        <ul>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">computer</i> 
+                              <strong>
+                                 Avance de proyecto (30 de noviembre): 
+                                 <a href="integracion_de_herencia.html" target="_blank">
+                                    Integración de Herencia, composición y agregación
+                                 </a>
+                              </strong>
+                           </li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h5>Durante la sesión:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              Resolver dudas sobre última sesión y proyectos
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">computer</i> 
+                              Ejercicio problema -> Abstracción -> Diagrama de Clases 
+                              -> Implementación
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assessment</i> 
+                              <strong>Examen: Herencia y Composición</strong>
+                              <ol>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Herencia</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Composición</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Problemas que implican herencia</strong>
+                                 </li>
+                                 <li>
+                                    <i class="tiny material-icons">thumb_up</i> 
+                                    <strong>Problemas que implican composición</strong>
+                                 </li>
+                              </ol>
+                           </li>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> Solución del examen.
+                           </li>
+                        </ul>
+                     </div>
                   </td>
                </tr>
+              
                <tr>
-                  <td>
-                     Examen de Módulo
+                  <td class="center">
+                     <h5>5</h5>
+                     1 - 7 de diciembre
                   </td>
-                  <td>
-                     <p>10</p>
-                     (5 de diciembre)
+                  <td class="align-top">
+                     <div>
+                        <h5>Contenido:</h5>
+                        <ul>
+                           <li>
+                              <i class="tiny material-icons">speaker_notes</i> 
+                              repaso
+                           </li>
+                        </ul>
+                     </div>
                   </td>
-                  <td>
-                     <ul>
-                       <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                          <li>
-                             <i class="small material-icons">assessment</i>
-                             <a href="examen_final.html" target="_blank">Examen Final.</a>
-                          </li>
-                       </span>
-                     </ul>
+                  <td class="align-top">
+                     <div>
+                        <h5>Contenido</h5>
+                        <ul>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">computer</i> 
+                              <strong>
+                                 <a href="proyecto_final.html" target="_blank">
+                                    Proyecto Entrega final (7 de diciembre).
+                                 </a>
+                              </strong>
+                           </li>
+                           <li class="activities-text">
+                              <i class="tiny material-icons">assessment</i> 
+                              <a href="examen_final.html" target="_blank">
+                                 <strong>Examen Final.</strong>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
                   </td>
                </tr>
             </tbody>
